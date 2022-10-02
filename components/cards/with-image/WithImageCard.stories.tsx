@@ -14,9 +14,9 @@ const Template: ComponentStory<typeof WithImageCard> = (args) => (
   <WithImageCard {...args} />
 );
 
-export const Base = Template.bind({});
+export const WithImage = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 
-Base.args = {
+WithImage.args = {
   ...mockWithImageCardProps.cardWithImage,
 } as IWithImageCard;
