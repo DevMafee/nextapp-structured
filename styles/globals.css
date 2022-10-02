@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* default - bg-transparent */
+/* primary - bg-teal-800 */
+/* Secondary - bg-emerald-800 */
+/* Success - bg-green-800 */
